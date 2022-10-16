@@ -1,0 +1,184 @@
+
+* {
+    margin: 0;
+    padding: 0;
+    font-family: 'Josefin Slab', serif;
+}
+body {
+    background-color: peachpuff;
+    font-family: 'Josefin Slab', serif;
+    font-weight: 315;
+    text-align: center;
+    display: flex;
+    justify-content: center;
+}
+
+.container{
+width: 335px;
+height: 735px;
+min-height: 100vh;
+margin: 55px auto;
+box-sizing: border-box;
+display: flex;
+justify-content: center;
+background-color: burlywood;
+border-radius: 12px;
+}
+.card-photo {
+   
+    width: 100%;
+    height: 215px;
+   background-size: cover;
+    border-radius: 12px;
+}
+.card-photo img {
+    
+    width: 100%;
+    height: 100%;
+    background-size: cover;
+    border-radius: 12px;
+}
+.content-part{
+    height: 415px;
+    width: 100%;
+    background-color: bisque;
+    justify-content: center;
+    font-size: 17px;
+
+}
+
+.info-part {
+    display: block;
+    text-align: center;
+    padding: 12px 0;
+    line-height: 32px;
+
+}
+.info-part>h2 {
+    font-size: 25px;
+    font-weight: 715;
+    margin-top: 20px;
+    color: saddlebrown;
+
+}
+.info-part>h4 {
+    font-size: 19px;
+    color: brown;
+
+}
+.info-part>h5 {
+    font-size: 12px;
+    color: brown;
+
+}
+.medialinks{
+    display: flex;
+    justify-content: space-around;
+
+}
+.button1{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 3px 3px;
+    font-size: 12px;
+    height: 37px;
+    width: 112px;
+    box-sizing: border-box;
+    border-radius: 12px;
+    background-color: chocolate;
+    color: aliceblue;
+}
+.button2{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 6px 6px;
+    font-size: 12px;
+    height: 37px;
+    width: 112px;
+    box-sizing: border-box;
+    border-radius: 12px;
+    background-color: chocolate;
+    color: aliceblue;
+}
+.button1 .button-icon {
+    padding: 5px;
+
+}
+.button2 .button-icon{
+    padding: 5px;
+}
+.button1:hover{
+    background-color: brown;
+    color: aliceblue;
+    cursor: pointer;
+}
+.button2:hover{
+    background-color: brown;
+    color: aliceblue;
+    cursor: pointer;
+}
+.info-part {
+    display: block;
+    text-align: left;
+    margin: 18px auto;
+}
+.info-part>h3{
+    margin-left: 38px;
+    line-height: 28px;
+    margin-top: 12px;
+    font-size: 15px;
+    color: aliceblue;
+}
+.info-part>p{
+    line-height: 12px;
+    margin-left: 38px;
+    margin-top: 12px;
+    font-size: 12px;
+    color:aliceblue;
+}
+.footer{
+    margin: 0;
+    padding: 0;
+    display: inline;
+}
+.social-menu{
+    margin: 12px auto;
+    position: relative;
+    text-align: center;
+    top: 12px;
+    word-spacing: 25px;
+    cursor: pointer;
+}
+.social-menu a{
+    width: 38px;
+    height: 38px;
+    display: inline;
+    align-items: center;
+    justify-content: center;
+    position: relative;
+    border-radius: 77px;
+    color: aliceblue;
+    font-size: 28px;
+
+}
+a.fa-brands{
+    background-color: brown;
+}
+.fa-twitter:hover{
+    background-color: brown;
+}
+.fa-facebook:hover{
+    background-color: red;
+    color: aliceblue;
+}
+.fa-instagram:hover{
+    background-color: brown;
+    color: aliceblue;
+}
+.fa-github:hover{
+    background-color: brown;
+    color: aliceblue;
+}
+

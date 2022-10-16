@@ -1,0 +1,23 @@
+* {
+    margin: 0;
+    padding: 0;
+    font-family: 'Pacifico', cursive;
+    box-sizing: border-box;
+
+}
+
+
+body{
+    background-color: LavenderBlush;
+    font-family: 'Pacifico', cursive;
+    width: 85%;
+    margin: 60px auto;
+    }
+
+    label {
+      
+        color: darkorchid;
+    }
+p{
+    color: darkorchid;
+}
